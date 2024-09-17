@@ -1,0 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+    var music = document.getElementById('backgroundMusic');
+    music.play();
+
+    var certificateButton = document.getElementById('certificateButton');
+    var certificate = document.getElementById('certificate');
+
+    certificateButton.addEventListener('click', function () {
+        certificate.classList.toggle('hidden');
+    });
+});
